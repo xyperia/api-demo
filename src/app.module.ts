@@ -9,11 +9,11 @@ import { ParticipantModule } from './participant/participant.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: '34.101.123.183',
+      host: 'xx',
       port: 5433,
-      username: 'yugabyte',
-      password: 'P@ssw0rd',
-      database: 'db-demo',
+      username: 'xx',
+      password: 'xx',
+      database: 'xx',
       entities: [Participant],
     }), ParticipantModule,
   ],
